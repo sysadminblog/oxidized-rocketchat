@@ -10,7 +10,7 @@ You must have the [rocket-chat-notifier](https://github.com/thiagofelix/rocket-c
 
 ## Installation
 
-Copy the [rocketdiff.rb](../blob/master/rocketdiff.rb) file to the `hook` directory in your Oxidized home folder (if you have not created any custom hooks you will need to create this directory). As an example, my Oxidized users home directory is `/home/oxidized/.config/oxidized`. The `rocketdiff.rb` file is located at `/home/oxidized/.config/oxidized/hook/rocketdiff.rb`.
+Copy the [rocketdiff.rb](rocketdiff.rb) file to the `hook` directory in your Oxidized home folder (if you have not created any custom hooks you will need to create this directory). As an example, my Oxidized users home directory is `/home/oxidized/.config/oxidized`. The `rocketdiff.rb` file is located at `/home/oxidized/.config/oxidized/hook/rocketdiff.rb`.
 
 ## Configuration
 
