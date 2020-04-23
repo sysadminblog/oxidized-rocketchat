@@ -65,7 +65,7 @@ class RocketDiff < Oxidized::Hook
           gitoutput = ctx.node.output.new
           diff = gitoutput.get_diff ctx.node, ctx.node.group, ctx.commitref, nil
           # Send the diff
-          client.ping "```#{diff[:patch].lines.to_a[4..-1].join}```"
+	  client.ping "```diff\n#{diff[:patch].lines.to_a[4..-1].join}\n```"
         end
       end
     end
